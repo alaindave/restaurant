@@ -1,0 +1,26 @@
+.header {
+  padding: 1rem 1rem 3rem;
+  position: relative;
+  left: 150px;
+}
+
+.list {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+}
+
+.item {
+  color: #ffd480;
+  font-size: 1.3rem;
+  margin-right: 3rem;
+  text-decoration: none;
+}
+
+.item:hover {
+  color: #666666;
+}
+
+.active-item {
+  color: #d6a41bb6;
+}
