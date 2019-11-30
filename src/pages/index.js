@@ -1,15 +1,15 @@
 import React from "react"
 import Layout from "../components/layout"
 import homeStyles from "../styles/index.module.scss"
-
-import Logo from "../components/logo"
+import logo from "../images/logo.png"
 
 export default () => {
   return (
+    <Layout>
     <div className={homeStyles.container}>
-      <Layout>
-        <Logo />
-      </Layout>
-    </div>
+      <img className={homeStyles.logo} src={logo} alt="Logo" />
+    </div> 
+    </Layout>
+    
   )
 }

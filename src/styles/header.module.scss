@@ -8,12 +8,14 @@
   display: flex;
   list-style-type: none;
   margin: 0;
+  position: relative;
+  left: 200px;
 }
 
 .item {
   color: #ffd480;
   font-size: 1.3rem;
-  margin-right: 3rem;
+  margin-right: 5rem;
   text-decoration: none;
 }
 
