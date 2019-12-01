@@ -18,12 +18,12 @@ const Header = () => {
           </li>
           <li>
             <Link
-              to="/about"
+              to="/gallery"
               className={headerStyles.item}
               activeClassName={headerStyles.activeItem}
             >
               {" "}
-              About
+              Gallery
             </Link>
           </li>
           <li>

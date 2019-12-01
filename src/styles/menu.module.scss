@@ -1,7 +1,9 @@
 .container{
-    color:white;
+    color:#1a0d00;
+    background-color: #ffd480;
     border-style:solid;
     border-color: white;
+    margin-top: 80px;
     width:400px;
     height:200px;
     position: relative;
@@ -18,7 +20,8 @@
 }
 
 .title{
-    color:white;
+    color:rgb(88, 25, 25);
     position: relative;
-    left:190px;
+    left:100px;
+    margin-bottom: 25px;
 }

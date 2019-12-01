@@ -3,9 +3,9 @@ import footerStyles from "../styles/footer.module.scss"
 
 const Footer = () => {
   return (
-    <footer className={footerStyles.footer}>
-      <p>Created by ADB tech solutions, © 2019</p>
-    </footer>
+    <div className={footerStyles.footer}>
+      <p className={footerStyles.trademark}>Powered by ADB tech solutions, © 2019</p>
+    </div>
   )
 }
 
